@@ -1,0 +1,123 @@
+What is Git?
+Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
+
+It is used for:
+
+Tracking code changes
+Tracking who made changes
+Coding collaboration
+What does Git do?
+Manage projects with Repositories
+Clone a project to work on a local copy
+Control and track changes with Staging and Committing
+Branch and Merge to allow for work on different parts and versions of a project
+Pull the latest version of the project to a local copy
+Push local updates to the main project
+Working with Git
+Initialize Git on a folder, making it a Repository
+Git now creates a hidden folder to keep track of changes in that folder
+When a file is changed, added or deleted, it is considered modified
+You select the modified files you want to Stage
+The Staged files are Committed, which prompts Git to store a permanent snapshot of the files
+Git allows you to see the full history of every commit.
+You can revert back to any previous commit.
+Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
+Change Platform:
+Shift focus to GitHubGitHub
+Shift focus to BitbucketBitbucket
+Shift focus to GitLabGitLab
+Why Git?
+Over 70% of developers use Git!
+Developers can work together from anywhere in the world.
+Developers can see the full history of the project.
+Developers can revert to earlier versions of a project.
+What is GitHub?
+Git is not the same as GitHub.
+GitHub makes tools that use Git.
+GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+In this tutorial, we will focus on using Git with GitHub.
+
+
+Git Getting Started
+Change Platform:
+Shift focus to GitHubGitHub
+Shift focus to BitbucketBitbucket
+Shift focus to GitLabGitLab
+Git Install
+You can download Git for free from the following website: https://www.git-scm.com/
+
+Using Git with Command Line
+To start using Git, we are first going to open up our Command shell.
+
+For Windows, you can use Git bash, which comes included in Git for Windows. For Mac and Linux you can use the built-in terminal.
+
+The first thing we need to do, is to check if Git is properly installed:
+
+Git New Files
+Change Platform:
+Shift focus to GitHubGitHub
+Shift focus to BitbucketBitbucket
+Shift focus to GitLabGitLab
+Git Adding New Files
+You just created your first local Git repo. But it is empty.
+
+So let's add some files, or create a new file using your favourite text editor. Then save or move it to the folder you just created.
+
+If you want to learn how to create a new file using a text editor, you can visit our HTML tutorial:
+HTML Editors
+
+For this example, I am going to use a simple HTML file like this:
+
+Git Staging Environment
+Change Platform:
+Shift focus to GitHubGitHub
+Shift focus to BitbucketBitbucket
+Shift focus to GitLabGitLab
+Git Staging Environment
+One of the core functions of Git is the concepts of the Staging Environment, and the Commit.
+
+As you are working, you may be adding, editing and removing files. But whenever you hit a milestone or finish a part of the work, you should add the files to a Staging Environment.
+
+Staged files are files that are ready to be committed to the repository you are working on. You will learn more about commit shortly.
+
+For now, we are done working with index.html. So we can add it to the Staging Environment:
+
+Git Commit
+Change Platform:
+Shift focus to GitHubGitHub
+Shift focus to BitbucketBitbucket
+Shift focus to GitLabGitLab
+Git Commit
+Since we have finished our work, we are ready move from stage to commit for our repo.
+
+Adding commits keep track of our progress and changes as we work. Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.
+
+When we commit, we should always include a message.
+
+By adding clear messages to each commit, it is easy for yourself (and others) to see what has changed and when
+
+Git Help
+Change Platform:
+Shift focus to GitHubGitHub
+Shift focus to BitbucketBitbucket
+Shift focus to GitLabGitLab
+Git Help
+If you are having trouble remembering commands or options for commands, you can use Git help.
+
+There are a couple of different ways you can use the help command in command line:
+
+git command -help -  See all the available options for the specific command
+git help --all -  See all possible commands
+ Let's go over the different commands.
+
+Git Branch
+Change Platform:
+Shift focus to GitHubGitHub
+Shift focus to BitbucketBitbucket
+Shift focus to GitLabGitLab
+Working with Git Branches
+In Git, a branch is a new/separate version of the main repository.
+
+Let's say you have a large project, and you need to update the design on it.
+
+How would that work without and with Git:
